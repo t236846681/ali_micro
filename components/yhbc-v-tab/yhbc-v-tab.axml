@@ -1,0 +1,23 @@
+<view class="v-tab">
+  <view class="v-tab_left">
+   <view>
+      <view a:for="{{listData}}"" class="v-tab_item">
+      <view class="{{activeIndex === index ? 'active' : ''}}" onTap="tapNav" data-index="{{index}}">
+        <view class="v-tab_item_content" >
+              <view class="v-tab_item_icon">
+                <image style="height:70rpx;width:70rpx;" src="../../assets/images/tabs/{{item.icon}}.png" />
+              </view>
+              <view class="v-tab_item_name">
+                {{item.name}}
+              </view>
+          </view>  
+      </view>
+      </view>
+    </view>
+  </view>
+  <view class="v-tab_right">
+      <view a:for="{{menuList[activeIndex].menuItem}}"" class="v-tab_box-item">
+        <image src="../../assets/images/tabMenu/{{item.img}}">
+      </view>
+  </view>
+</view>

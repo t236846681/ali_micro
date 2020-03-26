@@ -1,0 +1,6 @@
+{
+    "defaultTitle": "扫码点餐",
+    "usingComponents": {
+        "yhbc-v-tab": "/components/yhbc-v-tab/yhbc-v-tab"
+    }
+}

@@ -1,0 +1,28 @@
+.v-tab{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+.v-tab_left{
+    width: 18%;
+    min-width: 138rpx;
+}
+.v-tab_right{
+    width: 82%;
+}
+.v-tab_item_content{
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    padding: 20rpx 20rpx;
+}
+.v-tab_item .active{
+    background: url('../../assets/images/tabs/active_bg.png') repeat-y;
+    background-size: 100%;
+}
+.v-tab_item_content{
+    text-align: center;
+}
+.v-tab_item_name{
+    font-size: 22rpx
+}

@@ -1,0 +1,38 @@
+.header-wrap{
+    padding: 15rpx 0;
+    background: #fff;
+}
+.header-wrap_top{
+    display: flex;
+    align-items: center;
+}
+.header-wrap_top .header-wrap_name, .header-wrap_top .wrap_btn{
+   flex-direction: row;
+}
+.header-wrap_name{
+    display: inline-block;
+    font-size: 30rpx;
+    color: #333333;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+}
+.header-wrap_name icon{
+    margin: 0 20rpx;
+    display: flex;
+    align-items: center;
+}
+.header-wrap_btn{
+    display: inline-block;
+    font-size: 24rpx;
+    color:#f46d00;
+    font-weight: bold;
+    margin-left: 6rpx;
+}
+.header-wrap_bottom{
+    margin: 15rpx 15rpx 8rpx 75rpx;
+    font-size: 20rpx;
+    color:#666666;
+    display: flex;
+    justify-content: space-between;
+}   

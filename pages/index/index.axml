@@ -1,0 +1,68 @@
+
+<view class="header-wrap">
+  <view class="header-wrap_top">
+    <view class="header-wrap_name">
+      <icon type="success" size="15"/>杭州物美店
+      <view class="header-wrap_btn">【更改门店】</view>
+    </view>
+  </view>
+  <view class="header-wrap_bottom">
+    <view class="header-wrap_address">杭州文一路888号</view>
+    <view  class="header-wrap_distance">458m</view>
+  </view>
+</view>
+<view>
+  <swiper
+      style="height:305rpx;width:750rpx;"
+      class="demo-swiper"
+      previousMargin="10px"
+      nextMargin="10px"
+      autoplay="true"
+      circular="true"
+      previous-margin="0" next-margin="0"
+    >
+      <swiper-item >
+          <image style="height:305rpx;width:750rpx;" src="http://www.meijiehang.com/Uploadfiles/UEditor/Wordfile/20200319/2020031917325769/2020031917325769.003.jpeg" />
+          <!-- <view class="swiper-item bc_{{item.color}}">{{item.text}}</view> -->
+      </swiper-item>
+      <swiper-item previous-margin="0" next-margin="0" style="height:305rpx;width:750rpx;">
+          <image style="height:305rpx;width:750rpx;" src="https://ss1.bdstatic.com/70cFuXSh_Q1YnxGkpoWK1HF6hhy/it/u=2897000991,3987630936&fm=26&gp=0.jpg" />
+          <!-- <view class="swiper-item bc_{{item.color}}">{{item.text}}</view> -->
+      </swiper-item>
+    </swiper>
+</view>
+<!-- <view>
+  <view>
+    <view>新品</view>
+    <view>套餐</view>
+    <view>汉堡</view>
+    <view>小吃</view>
+    <view>饮料</view>
+    <view>甜品</view>
+    <view>肉类</view>
+  </view>
+    <view>
+    右侧新品
+  </view>
+</view> -->
+ <!-- <vtabs
+ tabs="{{tabs}}"
+ onTabClick="handleChange"
+ onChange="onChange"
+ tabBarInactiveTextColor="#000000"
+ tabBarInactiveBgColor="#ffffff"
+ tabBarActiveTextColor="#000000"
+ tabBarActiveBgColor="#666666"
+ activeTab="{{activeTab}}"
+>
+<block a:for="{{tabs}}">
+  <vtab-content anchor="{{item.anchor}}">
+    <view style="height: {{item.anchor === 'b'?'50vh':'100vh'}};background-color: {{item.anchor === 'b'?'#ccc':''}};">
+      <text>content of {{item.title}}</text>
+    </view>
+  </vtab-content>
+</block> -->
+<yhbc-v-tab></yhbc-v-tab>
+<view>
+  底部的购买
+</view>
